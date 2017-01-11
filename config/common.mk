@@ -79,6 +79,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/Features.mkdn:system/etc/RR/Features.txt
 
+#  Trying out Dream VR Capablities
+PRODUCT_COPY_FILES += \
+	vendor/cm/prebuilt/Extra/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
+
 # NexusLauncher
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
