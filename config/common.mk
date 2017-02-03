@@ -264,6 +264,10 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh
 
+# OpenDelta
+PRODUCT_PACKAGES += \
+    OpenDelta
+
 # rsync
 PRODUCT_PACKAGES += \
     rsync
