@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
 
 # Enable Google Assistant on all devices.
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opa.eligible_device=true
+    ro.opa.eligible_device=true \
+    ro.setupwizard.rotation_locked=true
 
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
