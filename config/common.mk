@@ -281,12 +281,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 vendor/cm/prebuilt/common/app/Substratum.apk:system/app/Substratum/Substratum.apk
 
-# ShutdownAnimation, boot and shutdown sounds, all in.
-PRODUCT_COPY_FILES += \
-vendor/cm/prebuilt/common/bootanimation/1080.zip:system/media/shutdownanimation.zip \
-vendor/cm/prebuilt/common/media/boot.wav:system/media/boot.wav \
-vendor/cm/prebuilt/common/media/shutdown.wav:system/media/shutdown.wav
-
 #Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
      libffmpeg_extractor \
