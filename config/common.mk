@@ -76,6 +76,15 @@ endif
 PRODUCT_COPY_FILES += \
     CHANGELOG.mkdn:system/etc/RR/Changelog.txt
 
+ # Generic overrides / AOSP fixes
+PRODUCT_PROPERTY_OVERRIDES += \
+    keyguard.no_require_sim=true \
+    dalvik.vm.debug.alloc=0 \
+    ro.com.android.wifi-watchlist=GoogleGuest \
+    ro.setupwizard.enterprise_mode=1 \
+    ro.com.android.dataroaming=false \
+    ro.com.google.ime.theme_id=5
+
 # Copy features.txt from the path
 PRODUCT_COPY_FILES += \
     vendor/cm/Features.mkdn:system/etc/RR/Features.txt
