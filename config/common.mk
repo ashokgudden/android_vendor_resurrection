@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 
 #  Trying out Dream VR Capablities
 PRODUCT_COPY_FILES += \
-	vendor/cm/prebuilt/Extra/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
+	vendor/cm/config/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
 # NexusLauncher
 PRODUCT_COPY_FILES += \
@@ -149,6 +149,15 @@ PRODUCT_COPY_FILES += \
 # This is CM!
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
+
+# SONY Framework 
+PRODUCT_COPY_FILES += \
+    vendor/cm/config/permissions/com.sony.device.xml:system/etc/permissions/com.sony.device.xml \
+    vendor/cm/config/permissions/com.sonyericsson.colorextraction.xml:system/etc/permissions/com.sonyericsson.colorextraction.xml \
+    vendor/cm/config/permissions/com.sonymobile.home.resourceprovider.xml:system/etc/permissions/com.sonymobile.home.resourceprovider.xml \
+    vendor/cm/prebuilt/common/framework/com.sony.device.jar:system/framework/com.sony.device.jar \
+    vendor/cm/prebuilt/common/framework/com.sonyericsson.colorextraction_impl.jar:system/framework/com.sonyericsson.colorextraction_impl.jar \
+    vendor/cm/prebuilt/common/framework/com.sonymobile.home.resourceprovider.jar:system/framework/com.sonymobile.home.resourceprovider.jar
 
 # Include CM audio files
 include vendor/cm/config/cm_audio.mk
