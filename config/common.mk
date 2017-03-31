@@ -209,6 +209,7 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     ThemeInterfacer
 
+ifneq ($(EXCLUDE_MAGISK),true) 
 # Magisk Manager
 PRODUCT_PACKAGES += \
     MagiskManager
@@ -216,6 +217,7 @@ PRODUCT_PACKAGES += \
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+endif
 
 # Exchange support
 PRODUCT_PACKAGES += \
