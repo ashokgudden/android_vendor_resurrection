@@ -123,8 +123,7 @@ PRODUCT_COPY_FILES += \
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/cm/prebuilt/common/bin/sysinit:system/bin/sysinit \
-    vendor/cm/prebuilt/common/etc/init.d/bbskernellog:system/etc/init.d/bbskernellog
+    vendor/cm/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # userinit support

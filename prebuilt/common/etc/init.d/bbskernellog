@@ -1,9 +1,0 @@
-#!/system/bin/sh
-#
-# Mounting debugsfs for BBS to show kernel debug logs.
-#
-mntP=$(grep /sys/kernel/debug /proc/mounts | awk '{print $2}')
-if [[ "${mntP}" != "/sys/kernel/debug" ]]
-then
-mount -t debugfs none /sys/kernel/debug
-fi
