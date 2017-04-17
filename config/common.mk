@@ -210,6 +210,10 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     ThemeInterfacer
 
+# Turbo
+PRODUCT_PACKAGES += \
+    Turbo
+
 # Magisk Manager
 PRODUCT_PACKAGES += \
     MagiskManager
