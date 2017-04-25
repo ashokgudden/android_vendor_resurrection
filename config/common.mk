@@ -199,7 +199,6 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     MusicFX \
     CMFileManager \
-    Eleven \
     LockClock \
     CMSettingsProvider \
     ExactCalculator \
@@ -209,6 +208,10 @@ PRODUCT_PACKAGES += \
     OmniSwitch \
     OmniJaws \
     ThemeInterfacer
+
+# Phonograph
+PRODUCT_PACKAGES += \
+    Phonograph
 
 # Turbo
 PRODUCT_PACKAGES += \
