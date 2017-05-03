@@ -194,6 +194,7 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
+    Snap \
     ResurrectionOTA \
     ResurrectionStats \
     Trebuchet \
