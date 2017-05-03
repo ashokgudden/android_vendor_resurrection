@@ -194,7 +194,6 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Browser \
     ResurrectionOTA \
     ResurrectionStats \
     Trebuchet \
@@ -203,6 +202,7 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMSettingsProvider \
     ExactCalculator \
+    Jelly \
     LiveLockScreenService \
     WeatherProvider \
     OmniStyle \
