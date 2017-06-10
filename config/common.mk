@@ -300,10 +300,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
-# Substratum
-PRODUCT_COPY_FILES += \
-vendor/cm/prebuilt/common/app/Substratum.apk:system/app/Substratum/Substratum.apk
-
 #Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
      libffmpeg_extractor \
