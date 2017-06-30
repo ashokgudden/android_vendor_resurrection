@@ -219,6 +219,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Turbo
 
+# Possible BT fix
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/lib/bluetooth.default.so:system/lib/hw/bluetooth.default.so
 
 WITH_ROOT_METHOD ?= rootless
 ifeq ($(WITH_ROOT_METHOD), magisk)
