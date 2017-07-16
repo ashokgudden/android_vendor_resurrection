@@ -370,4 +370,7 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/cm/config/partner_gms.mk
 
+# Include UBER common configuration
+include vendor/cm/config/compiler_versions.mk
+
 $(call prepend-product-if-exists, vendor/extra/product.mk)
