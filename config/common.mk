@@ -160,6 +160,11 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/framework/com.sonyericsson.colorextraction_impl.jar:system/framework/com.sonyericsson.colorextraction_impl.jar \
     vendor/cm/prebuilt/common/framework/com.sonymobile.home.resourceprovider.jar:system/framework/com.sonymobile.home.resourceprovider.jar
 
+# Xposed Framework 
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/framework/XposedBridge.jar:system/framework/XposedBridge.jar
+    vendor/cm/prebuilt/common/xposed.prop:system/xposed.prop
+
 # Include CM audio files
 include vendor/cm/config/cm_audio.mk
 
