@@ -1,0 +1,2 @@
+# MatLog calls dmesg
+allow priv_app kernel:system syslog_read;
