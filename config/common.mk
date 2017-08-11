@@ -220,9 +220,10 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     ThemeInterfacer
 
-# Phonograph
+# Omni Packages
 PRODUCT_PACKAGES += \
-    Phonograph
+    Phonograph \
+    MatLog
 
 # Turbo
 PRODUCT_PACKAGES += \
