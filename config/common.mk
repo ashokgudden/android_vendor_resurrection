@@ -93,9 +93,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/cm/config/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
-# NexusLauncher
+# Lawnchair
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
+    vendor/cm/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
 
 # Wallpaper
 PRODUCT_COPY_FILES += \
