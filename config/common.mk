@@ -89,10 +89,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/Features.mkdn:system/etc/RR/Features.txt
 
-#  Trying out Dream VR Capablities
-PRODUCT_COPY_FILES += \
-	vendor/cm/config/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
-
 # Lawnchair
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
