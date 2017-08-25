@@ -67,10 +67,16 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.dun.override=0
 endif
 
-ifneq ($(TARGET_BUILD_VARIANT),eng)
+# ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
-endif
+# ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+# endif
+
+# Allow recording ADB logcat during boot phase
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    persist.service.adb.enable=1
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
