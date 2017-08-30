@@ -1,2 +1,5 @@
 # MatLog calls dmesg
 allow priv_app kernel:system syslog_read;
+
+# address profile picture "read" permission denial
+allow priv_app system_app_data_file:file rw_file_perms;
