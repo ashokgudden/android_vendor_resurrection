@@ -235,6 +235,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/lib/bluetooth.default.so:system/lib/hw/bluetooth.default.so
 
+# Trusted face fc fix.
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/lib/libfrsdk.so:system/vendor/lib64/libfrsdk.so
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
