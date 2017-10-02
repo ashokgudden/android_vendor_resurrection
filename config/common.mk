@@ -290,6 +290,13 @@ PRODUCT_PACKAGES += \
     mkfs.exfat
 endif
 
+# Built-in Xposed
+PRODUCT_PACKAGES += \
+    libxposed_art \
+    XposedBridge \
+    XposedInstaller \
+    xposed.prop
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
